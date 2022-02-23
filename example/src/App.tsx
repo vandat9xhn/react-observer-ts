@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-import { ExampleComponent } from 'react-observer-ts'
-import 'react-observer-ts/dist/index.css'
+import { useDataShowMore } from 'react-observer-ts';
+import 'react-observer-ts/dist/index.css';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+    return (
+        <div>
+            <div>
+                <div></div>
+            </div>
+        </div>
+    );
+};
 
-export default App
+export default App;

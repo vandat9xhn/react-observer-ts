@@ -13,16 +13,20 @@ npm install --save react-observer-ts
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-observer-ts'
-import 'react-observer-ts/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+// Utils
+observerAppearance,
+observerDisplay,
+observerOverflow,
+observerSticky,
+observeToDo,
+observerVidPic,
+observeVirtualScroll,
+// Hooks
+useDataShowMore,
+useObserverGetData,
+useObserverShowMore,
+useObserverVirtualScroll,
+useObserveVidPic;
 ```
 
 ## License
